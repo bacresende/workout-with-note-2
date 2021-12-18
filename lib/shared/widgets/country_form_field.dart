@@ -76,7 +76,7 @@ class _CountryFormFieldState extends State<CountryFormField> {
           const SizedBox(width: 8.0),
           Flexible(
               child: Text(
-            country.name!,
+            '${country.name}',
             style: const TextStyle(fontSize: 17),
           )),
           const SizedBox(width: 8.0),
