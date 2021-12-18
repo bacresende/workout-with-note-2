@@ -101,7 +101,7 @@ class NewsScreen extends StatelessWidget {
                                                         horizontal: 10,
                                                         vertical: 8),
                                                 child: Text(
-                                                    "${controller.news[index].source?.name ?? ''}",
+                                                    "${controller.news[index].source!.name}",
                                                     style: Theme.of(context)
                                                         .textTheme
                                                         .subtitle2),
